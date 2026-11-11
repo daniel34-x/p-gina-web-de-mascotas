@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetWorld - Sección Perros</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="coleccion.css">
+</head>
+<body>
+
+  
+  <header class="header">
+    <div class="logo">
+      <i class="fa-solid fa-paw logo-icon"></i>
+      <span>PetWorld</span>
+    </div>
+    <nav class="main-nav">
+      <a href="perros.html" class="active">Perros</a>
+      <a href="gatos.html">Gatos</a>
+    </nav>
+    <div class="search-bar">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <input type="text" placeholder="Buscar productos para perros...">
+    </div>
+    <div class="user-actions">
+      <div class="action-item"><i class="fa-regular fa-user"></i><span>Mi Perfil</span></div>
+      <div class="action-item cart-item">
+        <div class="cart-icon-wrapper"><i class="fa-solid fa-cart-shopping"></i><span class="badge">0</span></div>
+        <span>Carrito</span>
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="breadcrumb-bar">
+    <div class="breadcrumb-container">
+      <a href="index.html">Inicio</a> &gt; <a href="#">Catálogo</a> &gt; <span>Perros</span>
+    </div>
+  </div>
+
+  <main class="catalog-container">
+    <!-- Filtros Lateral -->
+    <aside class="filters-sidebar">
+      <h2>Filtros Perros</h2>
+      <div class="filter-group">
+        <h3>Subcategorías</h3>
+        <ul class="category-list">
+          <li class="active"><a href="#">Juguetes</a></li>
+          <li><a href="#">Camas</a></li>
+          <li><a href="#">Correas</a></li>
+          <li><a href="#">Collares</a></li>
+          <li><a href="#">Alimento</a></li>
+        </ul>
+      </div>
+    </aside>
+
+   
+    <section class="catalog-content">
+      <div class="section-header">
+        <div class="section-title">
+          <h1>Todo para Perros</h1>
+          <span class="sub-path">Catálogo exclusivo canino</span>
+        </div>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&q=80&w=300" alt="Pelota Interactiva">
+          </div>
+          <h4>Pelota Interactiva</h4>
+          <p class="price">$24.99</p>
+          <button class="btn-detail">Ver Detalle</button>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&q=80&w=300" alt="Cama Suave">
+          </div>
+          <h4>Cama Suave</h4>
+          <p class="price">$85.00</p>
+          <button class="btn-detail">Ver Detalle</button>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1597843786411-a7fa8ad44a95?auto=format&fit=crop&q=80&w=300" alt="Correa de Nylon">
+          </div>
+          <h4>Correa de Nylon</h4>
+          <p class="price">$19.50</p>
+          <button class="btn-detail">Ver Detalle</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 PetWorld. Todos los derechos reservados.</p>
+    <p class="version">Versión 1.0 - Actualizado: 11/11/2026</p>
+  </footer>
+
+</body>
+</html>

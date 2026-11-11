@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetWorld - Tienda de Mascotas</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ 
+  <header class="header">
+    <div class="logo">
+      <i class="fa-solid fa-paw logo-icon"></i>
+      <span>PetWorld</span>
+    </div>
+    
+    <nav class="main-nav">
+      <a href="perros.html">Perros</a>
+      <a href="gatos.html">Gatos</a>
+    </nav>
+
+    <div class="search-bar">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <input type="text" placeholder="Buscar productos por nombre o palabra clave...">
+    </div>
+
+    <div class="user-actions">
+      <div class="action-item">
+        <i class="fa-regular fa-user"></i>
+        <span>Mi Perfil</span>
+      </div>
+      <div class="action-item cart-item">
+        <div class="cart-icon-wrapper">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="badge">0</span>
+        </div>
+        <span>Carrito</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    
+    <section class="hero-banner">
+      <button class="carousel-arrow prev"><i class="fa-solid fa-chevron-left"></i></button>
+      
+      <div class="hero-content">
+        <h2>¡Novedades en Accesorios!</h2>
+        <p>Encuentra lo mejor para tus mascotas</p>
+        <a href="coleccion.html" class="btn btn-black">Ver Colección</a>
+      </div>
+
+      <button class="carousel-arrow next"><i class="fa-solid fa-chevron-right"></i></button>
+
+      <div class="dots-container">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    
+    <section class="categories-grid">
+      <a href="perros.html" class="category-card category-perros">
+        <div class="category-text">
+          <h3>Perros</h3>
+          <p>Juguetes, Correas, Alimento</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=400" alt="Perro" class="category-img">
+      </a>
+
+      <a href="gatos.html" class="category-card category-gatos">
+        <div class="category-text">
+          <h3>Gatos</h3>
+          <p>Rascadores, Camas, Areneros</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=400" alt="Gato" class="category-img">
+      </a>
+    </section>
+
+    
+    <section class="two-columns">
+      
+      <div class="section-box">
+        <h3>Novedades Destacadas</h3>
+        <div class="products-mini-grid">
+          <div class="mini-card">
+            <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&q=80&w=200" alt="Pelota interactiva" class="product-img">
+            <span>Pelota Interactiva para Perros</span>
+          </div>
+          <div class="mini-card">
+            <img src="https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&q=80&w=200" alt="Árbol rascador" class="product-img">
+            <span>Árbol Rascador para Gatos</span>
+          </div>
+          <div class="mini-card">
+            <img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&q=80&w=200" alt="Juguete de plumas" class="product-img">
+            <span>Juguete con Plumas</span>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="section-box promo-box">
+        <h3>Promociones Vigentes</h3>
+        <div class="promo-banner-content">
+          <p class="promo-text"><strong>20% de DESCUENTO</strong><br>en Correas</p>
+          <img src="https://images.unsplash.com/photo-1597843786411-a7fa8ad44a95?auto=format&fit=crop&q=80&w=200" alt="Correa para perro" class="promo-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h3>Conoce PetWorld</h3>
+      <p>Somos tu tienda online de confianza para mascotas. Ofrecemos los mejores productos para el bienestar de tu mejor amigo.</p>
+      <a href="#" class="btn btn-black">Más sobre Nosotros</a>
+    </section>
+
+  </main>
+
+  
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="coleccion.html">Categorías</a>
+      <a href="#">Contacto</a>
+      <a href="#">Preguntas Frecuentes</a>
+      <a href="#">Términos y Condiciones</a>
+    </div>
+
+    <div class="social-links">
+      <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+      <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+    </div>
+
+    <div class="footer-copyright">
+      <p>&copy; 2026 PetWorld. Todos los derechos reservados.</p>
+      <p class="version">Versión 1.0 - Actualizado: 11/11/2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>

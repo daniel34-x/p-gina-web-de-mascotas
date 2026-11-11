@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetWorld - Sección Gatos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="coleccion.css">
+</head>
+<body>
+
+  
+  <header class="header">
+    <div class="logo">
+      <i class="fa-solid fa-paw logo-icon"></i>
+      <span>PetWorld</span>
+    </div>
+    <nav class="main-nav">
+      <a href="perros.html">Perros</a>
+      <a href="gatos.html" class="active">Gatos</a>
+    </nav>
+    <div class="search-bar">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <input type="text" placeholder="Buscar productos para gatos...">
+    </div>
+    <div class="user-actions">
+      <div class="action-item"><i class="fa-regular fa-user"></i><span>Mi Perfil</span></div>
+      <div class="action-item cart-item">
+        <div class="cart-icon-wrapper"><i class="fa-solid fa-cart-shopping"></i><span class="badge">0</span></div>
+        <span>Carrito</span>
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="breadcrumb-bar">
+    <div class="breadcrumb-container">
+      <a href="index.html">Inicio</a> &gt; <a href="#">Catálogo</a> &gt; <span>Gatos</span>
+    </div>
+  </div>
+
+  <main class="catalog-container">
+    
+    <aside class="filters-sidebar">
+      <h2>Filtros Gatos</h2>
+      <div class="filter-group">
+        <h3>Subcategorías</h3>
+        <ul class="category-list">
+          <li class="active"><a href="#">Rascadores</a></li>
+          <li><a href="#">Camas</a></li>
+          <li><a href="#">Areneros</a></li>
+          <li><a href="#">Juguetes</a></li>
+          <li><a href="#">Transporte</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    
+    <section class="catalog-content">
+      <div class="section-header">
+        <div class="section-title">
+          <h1>Todo para Gatos</h1>
+          <span class="sub-path">Catálogo exclusivo felino</span>
+        </div>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&q=80&w=300" alt="Árbol Rascador">
+          </div>
+          <h4>Árbol Rascador</h4>
+          <p class="price">$45.00</p>
+          <button class="btn-detail">Ver Detalle</button>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=300" alt="Mochila con Ventana">
+          </div>
+          <h4>Mochila con Ventana</h4>
+          <p class="price">$80.00</p>
+          <button class="btn-detail">Ver Detalle</button>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrapper">
+            <img src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&q=80&w=300" alt="Juguete Plumas">
+          </div>
+          <h4>Juguete con Plumas</h4>
+          <p class="price">$12.50</p>
+          <button class="btn-detail">Ver Detalle</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 PetWorld. Todos los derechos reservados.</p>
+    <p class="version">Versión 1.0 - Actualizado: 11/11/2026</p>
+  </footer>
+
+</body>
+</html>
